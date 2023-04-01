@@ -1,0 +1,25 @@
+:root {
+    --h1-color: #d90429;
+    --h3-color: #2b2d42;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end h1 {
+    color: var(--h1-color);
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.end h3 {
+    color: var(--h3-color);
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+

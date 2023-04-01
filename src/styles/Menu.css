@@ -1,0 +1,62 @@
+:root {
+    --menu-color: #8d99ae;
+    --button-color: #ef233c;
+    --font-color: #edf2f4;
+    --hover-color: #d90429;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--menu-color);
+    margin-top: 70px;
+    padding: 50px;
+    border-radius: 10px;
+    max-width: 700px;
+    color: var(--font-color);
+}
+
+.menu h1 {
+    font-size: 60px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: var(--menu-color);
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: var(--menu-color);
+}
+
+button {
+    padding: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    cursor: pointer;
+    color: var(--font-color)
+}
+
+button:hover {
+    background-color: var(--hover-color);
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        padding: 35px;
+        font-size: 20px;
+    }
+    
+    .menu h1 {
+        font-size: 40px;
+    }
+}

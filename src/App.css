@@ -1,0 +1,15 @@
+:root {
+   --title: #2b2d42;
+}
+
+.app {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.title {
+   font-size: 90px;
+   color: var(--title);
+}
